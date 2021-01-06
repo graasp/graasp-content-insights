@@ -1,12 +1,11 @@
-# Graasp Content Desktop
+# Graasp Insights Landing Page
 
-The Graasp Desktop's [website](https://desktop.graasp.org), built with GatsbyJS starting with the [Woo](https://www.styleshout.com/free-templates/woo/) template. The website contains:
+The Graasp Insights [website](https://insights.graasp.org), built with GatsbyJS starting with the [Woo](https://www.styleshout.com/free-templates/woo/) template. The website contains:
 
-- Graasp Desktop latest release
-- An overview of the Graasp Desktop features
-- A Getting started guide
+- A link to Graasp Insights' GitHub repo (executables to come)
+- An overview of Graasp Insights' features
 
-![screenshot](https://user-images.githubusercontent.com/19671041/99301997-6fecfc80-2857-11eb-9a31-fac58d25f2f7.png)
+![screenshot](https://user-images.githubusercontent.com/19311953/103768295-870fc580-5022-11eb-896c-547c765d1a0d.png)
 
 ## Getting Started
 
@@ -20,7 +19,7 @@ Make sure you have GatsbyJS installed. If you don't, click [here](https://www.ga
 
 1. After cloning the repository, run `yarn install`
 2. Run `yarn start` to launch the project on a live local server; by default, the project will launch on [http://localhost:8000](#)
-3. Edit the source code! The main sections of the site are placed in `src/components`. When you finish editing, save your changes, and Gatsby will automatically reload [http://localhost:8000](#) to reflect them
+3. Edit the source code! The main content of the site is located in `/content`. When you finish editing, save your changes, and Gatsby will automatically reload [http://localhost:8000](#) to reflect them
 
 ### Deployment
 

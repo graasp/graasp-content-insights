@@ -1128,14 +1128,14 @@ a#imagelightbox-close:focus {
 /* l. get-started
 /* ------------------------------------------------------------------ */
 
-#get-started {
+#learn-more {
   background-color: #fafafa;
   overflow: hidden;
 }
 
 /* For high-res devices */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #get-started {
+  #learn-more {
     background-color: #fafafa;
   }
 }

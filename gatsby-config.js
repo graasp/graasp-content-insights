@@ -13,28 +13,28 @@ require('dotenv').config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Graasp Desktop - A Cross-Platform Desktop Client for Education`,
+    title: `Graasp Insights - A Cross-Platform Desktop Client for Dataset Anonymization`,
     author: {
       name: `Graasp`,
     },
-    description: `Graasp Desktop is a free, cross-platform desktop client for the Graasp ecosystem.`,
+    description: `Graasp Insights is a free, open-source, cross-platform desktop client to anonymize datasets.`,
     keywords: [
       'education',
       'graasp',
       'elearning',
       'e-learning',
       'interactive',
-      'collaborative',
-      'learning',
+      'anonymization',
+      'datasets',
       'offline',
-      'analytics',
+      'visualization',
     ],
-    siteUrl: 'https://desktop.graasp.org',
+    siteUrl: 'https://insights.graasp.org',
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
       `features`,
-      `get-started`,
+      `learn-more`,
       // `pricing`,
       // `call-to-action`,
       // `screenshots`,
@@ -45,7 +45,7 @@ module.exports = {
     /* Configure the navigation menu */
     menuItems: [
       { path: 'features', label: 'Features' },
-      { path: 'get-started', label: 'Get Started' },
+      { path: 'learn-more', label: 'Learn More' },
       // { path: 'pricing', label: 'Pricing' },
       // { path: 'screenshots', label: 'Screenshots' },
       // { path: 'testimonials', label: 'Testimonials' },
@@ -66,7 +66,7 @@ module.exports = {
       },
       {
         service: `GitHub`,
-        url: `https://github.com/graasp/graasp-desktop`,
+        url: `https://github.com/graasp/graasp-insights`,
         fa: `github`,
       },
     ],
@@ -78,7 +78,7 @@ module.exports = {
     /* Logo and text to show in footer */
     footer: {
       logo: `/images/footer-logo.png`,
-      text: `A free, cross-platform desktop client for the Graasp ecosystem.`,
+      text: `A free, open-source, cross-platform desktop client to anonymize your datasets.`,
     },
 
     /* Address and contact info to show in footer */

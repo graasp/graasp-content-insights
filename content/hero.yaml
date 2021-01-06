@@ -1,18 +1,23 @@
-headline: A Free, Cross-Platform Desktop Client for the Graasp Ecosystem
+headline: A Free, Open-Source, Cross-Platform Desktop Client for Dataset Anonymization
 
-body: Download the open source, community version of Graasp Desktop for your preferred operating system.
+body: 'Beta release coming soon! In the meantime, follow our progress through our open-source repository:'
 
 button1:
-  label: Windows
+  label: Github
 
-button2:
-  label: Linux
-  to: 'https://github.com/graasp/graasp-desktop/releases/latest'
+# button2:
+#   label: Windows
 
-button3:
-  label: Mac
+# button3:
+#   label: Linux
+#   to: 'https://github.com/graasp/graasp-insights/releases/latest'
+
+# button4:
+#   label: Mac
 
 image: images/hero-image.png
-windows: images/windows_logo_gray.png
-linux: images/linux_logo_gray.png
-apple: images/apple_logo_gray.png
+github: images/github_logo_gray.png
+# windows: images/windows_logo_gray.png
+# linux: images/linux_logo_gray.png
+# apple: images/apple_logo_gray.png
+

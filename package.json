@@ -1,7 +1,7 @@
 {
-  "name": "graasp-content-desktop",
+  "name": "graasp-content-insights",
   "private": true,
-  "description": "A landing page for Graasp's desktop clients.",
+  "description": "A landing page for Graasp Insights.",
   "version": "0.1.0",
   "scripts": {
     "build": "gatsby build",
@@ -63,9 +63,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/graasp/graasp-content-desktop"
+    "url": "https://github.com/graasp/graasp-content-insights"
   },
   "bugs": {
-    "url": "https://github.com/graasp/graasp-content-desktop/issues"
+    "url": "https://github.com/graasp/graasp-content-insights/issues"
   }
 }

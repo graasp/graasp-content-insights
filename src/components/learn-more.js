@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
-import content from '../../content/get-started.yaml';
+import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+import content from '../../content/learn-more.yaml';
 
 export default () => (
-  <section id="get-started">
+  <section id="learn-more">
     <div className="row">
       <div className="twelve columns">
         <div className="hero-text">
@@ -18,19 +18,8 @@ export default () => (
               style={{ margin: '10px' }}
               download
             >
-              <FontAwesomeIcon icon={faFilePdf} size="lg" />
+              <FontAwesomeIcon icon={faEnvelopeSquare} size="lg" />
               {` ${content.button1.label} `}
-            </a>
-          </div>
-          <div className="flex-center horizontal">
-            <a
-              className="button full-width"
-              href={content.button2.to}
-              style={{ margin: '10px' }}
-              download
-            >
-              <FontAwesomeIcon icon={faFilePdf} size="lg" />
-              {` ${content.button2.label} `}
             </a>
           </div>
         </div>

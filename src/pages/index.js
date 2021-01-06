@@ -9,7 +9,7 @@ import CalltoAction from '../components/call-to-action';
 import Screenshots from '../components/screenshots';
 import Testimonials from '../components/testimonials';
 import Subscribe from '../components/subscribe';
-import GetStarted from '../components/get-started';
+import LearnMore from '../components/learn-more';
 
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 import Seo from '../components/seo';
@@ -24,7 +24,7 @@ export default () => {
     screenshots: Screenshots,
     testimonials: Testimonials,
     subscribe: Subscribe,
-    'get-started': GetStarted,
+    'learn-more': LearnMore,
   };
 
   return (
