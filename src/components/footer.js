@@ -81,7 +81,7 @@ export default () => {
           warranty regarding the functionality, reliability, or performance of
           the software, or the results to be obtained through the use of the
           software, or that the operation of the software shall be error-free.
-          In no event shall the Graasp Association or EPFL be liable to for any
+          In no event shall the Graasp Association or EPFL be liable for any
           damages arising from the use of Graasp Insights, including but not
           limited to the distribution, misuse, leakage, or theft of any original
           files or datasets or duplicates thereof handled, processed, or
