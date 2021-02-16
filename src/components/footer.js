@@ -74,19 +74,17 @@ export default () => {
         <p className="copyright">
           &copy; Graasp 2014-
           {`${new Date().getFullYear()} | `}
-          <a
-            title="Terms of Service"
-            href="https://graasp.eu/views/terms_page.client.html"
-          >
+          <a title="Terms of Service" href="/terms">
             Terms of Service
             {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
           </a>
           {' | '}
-          <a
-            href="https://graasp.eu/views/privacy_policy.client.html"
-            title="Privacy Policy"
-          >
+          <a href="/privacy" title="Privacy Policy">
             Privacy Policy
+          </a>
+          {' | '}
+          <a href="/disclaimer" title="Legal Disclaimer">
+            Legal Disclaimer
           </a>
         </p>
 

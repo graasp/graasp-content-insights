@@ -1542,7 +1542,7 @@
     prop-types "^15.7.2"
     tslib "^2.0.0"
 
-"@reach/router@^1.3.4":
+"@reach/router@1.3.4", "@reach/router@^1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
   integrity sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA==
@@ -6053,15 +6053,14 @@ gatsby-plugin-anchor-links@^1.1.1:
   dependencies:
     scroll-to-element "^2.0.3"
 
-gatsby-plugin-gdpr-cookies@1.0.11:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-1.0.11.tgz#fdb8e49988b5ce8bac5cc79c8d8b1d8d2e42e80c"
-  integrity sha512-OLD5qWMXwdnNQXkh/eg76rcrzqencYJTxrVy93PF/0Dtu4M7arJn3jQROI87DsMuEUM+jGfHCFRrB0SnfkSgmA==
+gatsby-plugin-gdpr-cookies@1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-1.0.12.tgz#9a5ec67e8d4acb68987962a42a4e1223e0e81a44"
+  integrity sha512-hLyMVyYkUTcTxKN+abA/lQFVIT5anBpkn27N5aWz5BwfxoAvzNaQrshcdhsB5kHsD0aazGh4ubDKyL0g5ylUpg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     common-tags "^1.8.0"
     minimist "^1.2.5"
-    react-ga "^3.1.2"
     universal-cookie "^4.0.4"
 
 gatsby-plugin-google-gtag@2.6.0:
@@ -10693,11 +10692,6 @@ react-focus-lock@^2.3.1:
     react-clientside-effect "^1.2.2"
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
-
-react-ga@^3.1.2:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.3.0.tgz#c91f407198adcb3b49e2bc5c12b3fe460039b3ca"
-  integrity sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ==
 
 react-helmet@^6.0.0:
   version "6.1.0"
