@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import CookieConsent from 'react-cookie-consent';
+import { useLocation } from '@reach/router';
+import { initializeAndTrack } from 'gatsby-plugin-gdpr-cookies';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { useSiteMetadata } from '../hooks/use-site-metadata';
 
@@ -23,6 +25,7 @@ config.autoAddCss = false;
 
 function Layout({ children }) {
   const { title, description, author, favicon } = useSiteMetadata();
+  const location = useLocation();
 
   return (
     <>
@@ -48,12 +51,9 @@ function Layout({ children }) {
         buttonText="Accept"
         cookieName="gatsby-gdpr-google-analytics"
         buttonStyle={{ background: '#fafafa', fontSize: '13px' }}
-        // review this callback (triggered when tracking cookie is accepted)
-        // onAccept={() => {
-        //   window.gtag('event', 'page_view', {
-        //     send_to: [process.env.GATSBY_GA_TRACKING_ID],
-        //   });
-        // }}
+        onAccept={() => {
+          initializeAndTrack(location);
+        }}
         sameSite="lax"
       >
         We use cookies and other tracking technologies to improve your browsing
