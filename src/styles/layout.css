@@ -878,16 +878,6 @@ footer ul li a:focus {
   color: #fff;
 }
 
-/* legal disclaimer */
-footer .disclaimer {
-  font-size: 12px;
-  padding-top: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
-  clear: both;
-  font-style: italic;
-}
-
 /* copyright */
 footer .copyright {
   margin: 0;
