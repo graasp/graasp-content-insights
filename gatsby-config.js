@@ -46,6 +46,7 @@ module.exports = {
     menuItems: [
       { path: 'features', label: 'Features' },
       { path: 'learn-more', label: 'Learn More' },
+      { path: 'user-guide', label: 'User Guide' },
       // { path: 'pricing', label: 'Pricing' },
       // { path: 'screenshots', label: 'Screenshots' },
       // { path: 'testimonials', label: 'Testimonials' },

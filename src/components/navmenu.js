@@ -38,6 +38,22 @@ export default function () {
         offset={-100}
       >
         {menuItems.map((value, index) => {
+          if (value.path === 'user-guide') {
+            return (
+              <li key={String(index)}>
+                <button type="button">
+                  <a
+                    href="https://github.com/graasp/graasp-insights/blob/master/docs/introduction.md"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ color: 'inherit' }}
+                  >
+                    {value.label}
+                  </a>
+                </button>
+              </li>
+            );
+          }
           return (
             <li key={String(index)}>
               <button
